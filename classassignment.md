@@ -32,6 +32,7 @@ function fibonacci(n) {
 
 console.log(fibonacci(10));
 
+```
 ---
 
 ## 2. Sum of Total Digits in a Number
@@ -59,6 +60,7 @@ function sumOfDigits(num) {
 
 console.log(sumOfDigits(1234));
 
+```
 
 ---
 
@@ -84,6 +86,8 @@ function isPalindrome(value) {
 console.log(isPalindrome(121));
 console.log(isPalindrome(123));
 
+```
+
 ---
 
 
@@ -106,6 +110,8 @@ function printTriangle(rows) {
 }
 
 printTriangle(5);
+
+```
 
 
 ---
@@ -135,5 +141,6 @@ function factorial(n) {
 
 console.log(factorial(5));
 
+```
 
 
