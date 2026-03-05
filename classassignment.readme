@@ -1,1 +1,80 @@
+// Fibonacci Series
+
+function fibonacci(n){
+   let a = 0, b =1
+   let res = []; 
+   for(let i=0;i<n;i++){
+       res.push(a);
+       let next = a+b;
+       a=b;
+       b=next;
+   }
+   return res;
+}
+console.log(fiboonacci(10));
+
+
+
+
+// Sum of Total Digits in a Number
+
+function sumOfDigits(num) {
+    let sum = 0;
+
+    while (num > 0) {
+        sum += num % 10;
+        num = Math.floor(num / 10);
+    }
+
+    return sum;
+}
+
+console.log(sumOfDigits(1234));
+
+
+
+
+// Palindrome
+
+function isPalindrome(value) {
+    let str = value.toString();
+    let reversed = str.split('').reverse().join('');
+
+    return str === reversed;
+}
+
+console.log(isPalindrome(121));
+console.log(isPalindrome(123));
+
+
+
+
+// Print Triangle Pattern
+
+function printTriangle(rows) {
+    for (let i = 1; i <= rows; i++) {
+        console.log("*".repeat(i));
+    }
+}
+
+printTriangle(5);
+
+
+
+
+// Factorial
+
+function factorial(n) {
+    let result = 1;
+
+    for (let i = 1; i <= n; i++) {
+        result *= i;
+    }
+
+    return result;
+}
+
+console.log(factorial(5));
+
+
 
